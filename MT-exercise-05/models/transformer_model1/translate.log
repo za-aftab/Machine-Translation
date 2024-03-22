@@ -1,0 +1,9 @@
+2023-05-26 17:05:20,258 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2023-05-26 17:05:20,318 - INFO - joeynmt.model - Building an encoder-decoder model...
+2023-05-26 17:05:20,495 - INFO - joeynmt.model - Enc-dec model built.
+2023-05-26 17:05:20,552 - INFO - joeynmt.helpers - Load model from /Users/kristina/Documents/Studium/2023_FS/CL_MaschinelleUebersetzung/Exercise/mt-2023-ex05/mt-exercise-5/models/transformer_model1/19500.ckpt.
+2023-05-26 17:05:20,559 - INFO - joeynmt.tokenizers - nl tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2023-05-26 17:05:20,559 - INFO - joeynmt.tokenizers - de tokenizer: BasicTokenizer(level=word, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none)
+2023-05-26 17:05:20,598 - WARNING - joeynmt.helpers - `alpha` option is obsolete. Please use `beam_alpha`, instead.
+2023-05-26 17:05:20,599 - INFO - joeynmt.prediction - Predicting 1779 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2023-05-26 17:06:43,287 - INFO - joeynmt.prediction - Generation took 82.6763[sec]. (No references given)
